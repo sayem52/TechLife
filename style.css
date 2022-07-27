@@ -1,0 +1,32 @@
+body{
+
+    font-family: 'Poppins', sans-serif;
+
+    margin:00px;
+    padding:00;
+}
+
+.cover-f{
+    margin-top: 30px;
+}
+
+#nav-pic{
+    width: 40%;
+}
+.cover-h{
+    margin-bottom: 20px;
+    
+}
+#cover-t2{
+    
+}
+#cover-h2{
+    margin-bottom: 350px;
+}
+.cover-p{
+    margin-bottom: 140px;
+}
+
+.cover-b{
+    margin-bottom: 70px;
+}
