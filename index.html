@@ -436,17 +436,166 @@
      <h1 class="h1 text-center fw-bolder">Frequently Asked Questions</h1>
      <p class="text-center"><small class="text-muted">Frequently asked question pages help your business respond to the needs of <br> your audience more quickly and appropriately.</small></p>
 
-     <div class="mt-5" style="margin-left:100px ;">
-      <select class="form-select w-75 mx-5" aria-label="Default select example">
-        <option selected>What is the Difference between Grid and Flex?</option>
-        <option value="1">Flexbox offers greater control over alignment and space distribution between items. Being one-dimensional, Flexbox only deals with either columns or rows.
-          Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. This compensates for the limitations in Flex.</option>
-        <option value="2">Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.
-          CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows.</option>
-        
-      </select>
+     <div class="mt-5 w-80 mx-5">
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              What is the difference Between Grid and Flexbox?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              1. Dimensionality and Flexibility:
+
+              Flexbox offers greater control over alignment and space distribution between items. Being one-dimensional, Flexbox only deals with either columns or rows.
+              Grid has two-dimension layout capabilities which allow flexible widths as a unit of length. This compensates for the limitations in Flex.
+              2. Alignment:
+              
+              Flex Direction allows developers to align elements vertically or horizontally, which is used when developers create and reverse rows or columns.
+              CSS Grid deploys fractional measure units for grid fluidity and auto-keyword functionality to automatically adjust columns or rows.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              What is the difference Between Bootstrap and Tailwind?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              Bootstrap: 1.Comes with responsive layouts, components, and utility classes
+              2.Less flexible than Tailwind
+              3.Larger file size than Tailwind due to its required files
+              4.Has been around much longer than Tailwind and is one of the most popular frameworks
+              5.Websites built using Bootstrap are known for their responsiveness and flawless design
+              6.Critics say that websites built using Bootstrap look similar <br>
+              Tailwind: 1.Comes with a lot more utility classes than Bootstrap
+              2.Core does not have components or layouts classes
+              3.More flexible than Bootstrap
+              4.Can reduce the file size using PurgeCSS to remove unused classes
+              5.A newer framework that is gaining popularity
+              6.Critics say that using Tailwind CSS makes your code difficult to read
+              
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What is css box model?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              In CSS, the term "box model" is used when talking about design and layout.
+
+              The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content. The image below illustrates the box model: <br>
+              Explanation of the different parts:
+
+1.Content - The content of the box, where text and images appear <br>
+2.Padding - Clears an area around the content. The padding is transparent <br>
+3.Border - A border that goes around the padding and content <br>
+4.Margin - Clears an area outside the border. The margin is transparent <br>
+The box model allows us to add a border around elements, and to define space between elements. 
+              
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              What is an HTML Semantic Tag and Why Do You Need To Use It?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              The core characteristic of a semantic element is that it clearly communicated its meaning to both the developer and the browser. These elements clearly define its content. <br>
+              The are several advantages of using semantics tags in HTML:
+
+**The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages.
+**The pages made with semantic elements are much easier to read.
+**It has greater accessibility. It offers a better user experience.
+HTML Semantic Tag Structure
+The following HTML tags can be used to break your page into identified parts:
+
+**header: t defines a header for a web page.
+**nav: It defines a container for navigation links.
+**section: This defines a section in a web page.
+**article: This element contains the main part, containing information about the web page.
+**aside: The <aside> content is often placed as a sidebar in a document.
+**footer: It defines a footer for a document or a section.
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
      </div>
   </section>
+
+
+  <section class="container mt-5  mb-5 custom-class">
+      <h1 class="h1 text-center fw-bolder">
+        Trusted by over 800+ companies
+      </h1>
+      <div class="row mt-5">
+        <div class="col-2">
+          <img src="images/company/company-1.png" class="rounded  w-75" alt="...">
+        </div>
+        <div class="col-2">
+          <img src="images/company/company-2.png" class="rounded  w-75" alt="...">
+        </div>
+        <div class="col-2">
+          <img src="images/company/company-3.png" class="rounded w-75" alt="...">
+        </div>
+        <div class="col-2">
+          <img src="images/company/company-4.png" class="rounded w-75" alt="...">
+
+        </div>
+        <div class="col-2">
+          <img src="images/company/company-5.png" class="rounded w-75" alt="...">
+
+        </div>
+        <div class="col-2">
+          <img src="images/company/company-6.png" class="rounded w-75" alt="...">
+
+        </div>
+        
+        
+        
+        
+        
+       
+        
+
+      </div>
+  </section>
+
+  <footer class="container mt-3  text-bg-dark p-3">
+
+    <div class="mt-5">
+         <h1 class="h1 text-center mt-5">Tech Life</h1>
+         <p class="text-center"><small>
+          Office 41, Zawaya Buildin, Cumilla, <br>
+
+            district of Bangladesh <br>
+          Privacy Ploicy | Terms of use
+         </small></p>
+    </div>
+
+    <div class="text-center">
+      <a href="http://"><i class="fa-brands fa-facebook mx-4 mb-5"></i></a>
+      <a href="http://"><i class="fa-brands fa-twitter mx-4 mb-5"></i></a>
+      <a href="http://"><i class="fa-brands fa-instagram mx-4 mb-5"></i></a>
+      <a href="http://"><i class="fa-brands fa-tiktok mx-4 mb-5"></i></a>
+
+    </div>
+
+  </footer>
 
 
 
