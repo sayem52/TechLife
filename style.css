@@ -23,4 +23,48 @@ body{
       display: block;
     }
   }
+.custom1-class{
+    display: none;
+}
+  @media (min-width: 577px) and (max-width: 991.98px) { 
+    .tab-class{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    .w-45{
+        width: 577px !important;
+    }
+    .custom1-class {
+        display: block;
+      }
+    
+    
+  }
+
+  @media (max-width: 575.98px) {
+       
+    .custom1-class {
+        display: block;
+      }
+
+      .tab-class{
+        display: grid;
+        grid-template-columns: 500px;
+
+    }
+    .w-c img{
+        width: 100%;
+    }
+    .mob-class{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+    
+
+   }
+
 

@@ -40,21 +40,21 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Courses</a>
+              <a class="nav-link " href="#course">Courses</a>
             </li>
             <li class="nav-item ">
-              <a class="nav-link " href="#" role="button" aria-expanded="false">
+              <a class="nav-link " href="#expoly" role="button" aria-expanded="false">
                 Explore
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">Success</a>
+              <a class="nav-link " href="#suc">Success</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">FeedBack</a>
+              <a class="nav-link " href="#comm">FeedBack</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link " href="#">About</a>
+              <a class="nav-link " href="#con">About</a>
             </li>
           </ul>
           <form class="d-flex" role="search">
@@ -138,7 +138,7 @@
 
   </section>
 
-  <section class="container mt-5">
+  <section id="course" class="container mt-5">
     <div class="text-center">
       <h2 class=" fw-bolder">
         Enroll Our Popular <br>
@@ -150,12 +150,12 @@
       </p>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5 tab-class">
 
-      <div class="row col-12 justify-content-between">
+      <div class="row col-12 justify-content-between tab-class w-c">
         <div class="col-6 mb-3 ">
           <!-- course 1 start -->
-          <div class="card w-45" style="max-width: 540px;">
+          <div class="card w-45">
             <div class="row">
               <div class="col-md-5">
                 <img src="images/course/course-1.png" class="img-fluid rounded-start img-height" alt="...">
@@ -174,7 +174,7 @@
         <div class="col-6">
 
           <!-- course 2 start -->
-          <div class="card mb-3 w-45" style="max-width: 540px;">
+          <div class="card mb-3 w-45">
             <div class="row g-0">
               <div class="col-md-5">
                 <img src="images/course/course-2.png" class="img-fluid rounded-start img-height" alt="...">
@@ -193,10 +193,10 @@
       </div>
 
 
-      <div class="row col-12 justify-content-between">
+      <div class="row col-12 justify-content-between tab-class">
         <div class="col-6 mb-3 ">
           <!-- course 3 start -->
-          <div class="card w-45" style="max-width: 540px;">
+          <div class="card w-45">
             <div class="row">
               <div class="col-md-5">
                 <img src="images/course/course-3.png" class="img-fluid rounded-start img-height" alt="...">
@@ -215,7 +215,7 @@
         <div class="col-6">
 
           <!-- course 4 start -->
-          <div class="card mb-3 w-45" style="max-width: 540px;">
+          <div class="card mb-3 w-45">
             <div class="row g-0">
               <div class="col-md-5">
                 <img src="images/course/course-4.png" class="img-fluid rounded-start img-height" alt="...">
@@ -234,10 +234,10 @@
         </div>
       </div>
 
-      <div class="row col-12 justify-content-between">
+      <div class="row col-12 justify-content-between tab-class">
         <div class="col-6 mb-3 ">
           <!-- course 5 start -->
-          <div class="card w-45" style="max-width: 540px;">
+          <div class="card w-45" >
             <div class="row">
               <div class="col-md-5">
                 <img src="images/course/course-5.png" class="img-fluid rounded-start img-height" alt="...">
@@ -256,7 +256,7 @@
         <div class="col-6">
 
           <!-- course 6 start -->
-          <div class="card mb-3 w-45" style="max-width: 540px;">
+          <div class="card mb-3 w-45">
             <div class="row g-0">
               <div class="col-md-5">
                 <img src="images/course/course-6.png" class="img-fluid rounded-start img-height" alt="...">
@@ -281,7 +281,7 @@
 
   </section>
 
-  <section class="container mt-5">
+  <section id="expoly" class="container mt-5">
 
     <div class="card mb-3" style="max-width: 900px;">
       <div class="row g-0">
@@ -325,15 +325,39 @@
 
   <section class="container mt-5">
     <div class="text-bg-primary p-3">
-      <div class="d-flex">
+      <div class="d-flex tab-class mob-class">
         <div class="p-2 flex-grow-1">
           <h1 class="mt-5 mx-5">Ready to join?</h1>
           <p class="mt-3 mx-5 mb-3 "><small>It is a long established fact that a reader will be distracted by the <br>
               readable content of a page when looking at its layout</small></p>
         </div>
         <div class="p-2">
-          <button type="button" class="btn btn-primary btn-lg mt-5 mx-5"
-            style="background-color:white; color:blue;">Register Now</button>
+         
+
+                          <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary mt-5 mx-5"
+                style="background-color:white; color:blue;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Register Now
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">what a modal!</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        ...
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
         </div>
 
       </div>
@@ -341,7 +365,7 @@
     </div>
   </section>
 
-  <section class="container mt-5">
+  <section id="suc" class="container mt-5">
     <h1 class="h1 fw-bolder">Meet Our Successfull <br>
       Students</h1>
 
@@ -349,31 +373,31 @@
         to understand your particular interests, needs, <br>
         and aspirations. Read on for stories of real</small></p>
 
-    <div class="d-flex justify-content-evenly">
+    <div class="d-flex justify-content-evenly ">
 
-      <div class="card me-3" style="width: 15rem;">
+      <div class="card me-3 mb-2" >
         <img src="images/student/student-1.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="fw-bolder">Sayem</h4>
             <p class="card-text text-muted"><small>Web Developer</small></p>
         </div>
       </div>
-      <div class="card me-3" style="width: 15rem;">
-        <img src="images/student/student-2.png" class="card-img-top" alt="...">
+      <div class="card me-3 mb-2 ">
+        <img src="images/student/student-2.png" class="card-img-top " alt="...">
         <div class="card-body">
           <h5 class="fw-bolder">Jannatul Islam</h4>
             <p class="card-text text-muted"><small>Motion Design</small></p>
         </div>
       </div>
-      <div class="card me-3" style="width: 15rem;">
-        <img src="images/student/student-3.png" class="card-img-top" alt="...">
+      <div class="card me-3 mb-2">
+        <img src="images/student/student-3.png" class="card-img-top " alt="...">
         <div class="card-body">
           <h5 class="fw-bolder">Hridoy Khan</h4>
             <p class="card-text text-muted"><small>Graphic Designer</small></p>
         </div>
       </div>
-      <div class="card me-3" style="width: 15rem;">
-        <img src="images/student/student-4.png" class="card-img-top" alt="...">
+      <div class="card me-3 mb-2">
+        <img src="images/student/student-4.png" class="card-img-top " alt="...">
         <div class="card-body">
           <h5 class="fw-bolder">Nishi Akter</h4>
             <p class="card-text text-muted"><small>UI/UX Designer</small></p>
@@ -386,14 +410,14 @@
 
   </section>
 
-  <section class="container mt-5">
+  <section id="comm" class="container mt-5">
     <h1 class="h1 fw-bolder text-center">Some Students Feedback</h1>
     <p class="text-center"><small class="text-muted">Correcting students when they make mistakes is only half the job. <br> Once they
         know they've made a mistake, help them learn why and how not to make.</small></p>
 
-        <div class="row mt-5">
+        <div class="row mt-5 tab-class">
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card w-45 mb-2">
               <div class="card-body">
                 <img src="images/comma.png" class="img-fluid rounded-start" alt="...">
                 <i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i>
@@ -411,7 +435,7 @@
             </div>
           </div>
           <div class="col-sm-6">
-            <div class="card">
+            <div class="card w-45">
               <div class="card-body">
                 <img src="images/comma.png" class="img-fluid rounded-start" alt="...">
                 <i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i><i class="fa-solid fa-star float-end"></i>
@@ -428,6 +452,10 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="text-center custom1-class mt-5">
+          <button type="button" class="btn btn-primary">View All</button>
+
         </div>
 
   </section>
@@ -575,7 +603,7 @@ The following HTML tags can be used to break your page into identified parts:
       </div>
   </section>
 
-  <footer class="container mt-3  text-bg-dark p-3">
+  <footer id="con" class="container mt-3  text-bg-dark p-3">
 
     <div class="mt-5">
          <h1 class="h1 text-center mt-5">Tech Life</h1>
@@ -588,10 +616,10 @@ The following HTML tags can be used to break your page into identified parts:
     </div>
 
     <div class="text-center">
-      <a href="http://"><i class="fa-brands fa-facebook mx-4 mb-5"></i></a>
-      <a href="http://"><i class="fa-brands fa-twitter mx-4 mb-5"></i></a>
-      <a href="http://"><i class="fa-brands fa-instagram mx-4 mb-5"></i></a>
-      <a href="http://"><i class="fa-brands fa-tiktok mx-4 mb-5"></i></a>
+      <a href="https://www.facebook.com/sayemalmahadi.hridoy.10"><i class="fa-brands fa-facebook mx-4 mb-5"></i></a>
+      <a href="https://www.facebook.com/sayemalmahadi.hridoy.10"><i class="fa-brands fa-twitter mx-4 mb-5"></i></a>
+      <a href="https://www.facebook.com/sayemalmahadi.hridoy.10"><i class="fa-brands fa-instagram mx-4 mb-5"></i></a>
+      <a href="https://www.facebook.com/sayemalmahadi.hridoy.10"><i class="fa-brands fa-tiktok mx-4 mb-5"></i></a>
 
     </div>
 
